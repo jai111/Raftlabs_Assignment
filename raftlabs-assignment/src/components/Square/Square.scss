@@ -1,0 +1,23 @@
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+
+    border: 1px solid #38ada9;
+
+    cursor: pointer;
+}
+
+.cell:hover {
+    border: 2px solid #0c2461;
+}
+
+.isSelected {
+    background-color: #079992;
+    border: 1px solid #079992;
+}
+
+.isPath {
+    background-color: #b8e994;
+    border: 1px solid #b8e994;
+}
